@@ -31,7 +31,7 @@ if [ "$dbinfo" = "y" ]; then
     echo -n "Database Password: "
     read dbpass
 
-    echo -n "Store URL: "
+    echo -n "Store URL (e.g http://store.local/, remember trailing slash!): "
     read url
 
     echo -n "Admin Username: "
