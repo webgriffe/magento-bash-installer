@@ -16,6 +16,11 @@ A MySQL database is required before running the script. After that simply execut
 
 ... and provide requested information.
 
+TODO
+----
+
+* The script should have default parameters
+
 Credits
 -------
 
