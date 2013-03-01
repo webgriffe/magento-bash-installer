@@ -120,21 +120,9 @@ if [ "$dbinfo" = "y" ]; then
         mysql -h $dbhost -u $dbuser -p$dbpass $dbname < data.sql
     fi
        
-#    echo
-#    echo "Initializing PEAR registry..."
-#    echo
-#
-#    pear mage-setup .
-#
-#    echo
-#    echo "Downloading packages..."
-#    echo
-#
-#    pear install magento-core/Mage_All_Latest
-#
-#    echo
-#    echo "Cleaning up files..."
-#    echo
+    echo
+    echo "Cleaning up files..."
+    echo
        
     rm -rf downloader/pearlib/cache/* downloader/pearlib/download/*
     rm -rf magento/
